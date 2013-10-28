@@ -1,5 +1,5 @@
 {
-  "name": "first-expresss-app",
+  "name": "restapi",
   "description": "a fine piece of work",
   "version": "0.0.1",
   "dependencies": {
@@ -19,5 +19,12 @@
     "mocha": "~1.13.0"
   },
   "author": "Michael Silliman",
-  "license": "BSD-2-Clause"
+  "license": "BSD-2-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikesill/restapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mikesill/restapi/issues"
+  }
 }
