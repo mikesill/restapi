@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+
+{% block title %} My First Page {% endblock %}
+
+{% block head %}
+   {% parent %}
+   <link ref="stylesheet" href="css/custom.css">
+{% endblock %}
+
+{% block content %}
+<h1>Content Page</h1>
+<p>Hello World</p>
+<p style="background: yellow;">{{ message }}</p>
+{% endblock %}
+

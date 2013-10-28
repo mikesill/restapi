@@ -1,0 +1,23 @@
+{
+  "name": "first-expresss-app",
+  "description": "a fine piece of work",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "~3.4.3",
+    "swig": "~1.1.0",
+    "consolidate": "~0.9.1",
+    "express-useragent": "0.0.8-1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "~1.13.0"
+  },
+  "author": "Michael Silliman",
+  "license": "BSD-2-Clause"
+}
