@@ -1,15 +1,15 @@
 var config = {
     local: {
         mode: 'local',
-        port: 3000,
+        port: process.env.PORT || 3000,
         },
         staging: {
         mode: 'staging',
-        port: 4000
+        port: process.env.PORT || 4000
         },
         production: {
         mode: 'production',
-        port: 5000
+        port: process.env.PORT || 5000
         }
 }
 
